@@ -83,15 +83,3 @@ Time period 2:
 
 Total cost of energy production: [Value] USD
 ```
-
-## License
-
-This code is licensed under the [MIT License](LICENSE).
-
-## Acknowledgements
-
-This project was developed by [Your Name]. Feel free to reach out with any questions or feedback!
-
----
-
-*Note: Make sure to replace `[Value]` with actual numerical values in the README.*
