@@ -7,7 +7,7 @@ model = Model(GLPK.Optimizer)
 Random.seed!(123) # for reproducibility
 
 # demand = 100 + rand([-5, 0, 5]) # Adding demand variability
-demand_values = [95, 100, 100, 100, 100, 97, 100, 96, 99, 100, 104, 94, 100, 93, 100, 92, 100, 91, 109, 90, 100, 89, 100, 88]
+demand = [95, 100, 100, 100, 100, 97, 100, 96, 99, 100, 104, 94, 100, 93, 100, 92, 100, 91, 109, 90, 100, 89, 100, 88]
 max_wind_energy = 80
 max_solar_energy = 70
 storage_capacity = 30
@@ -48,7 +48,7 @@ end
 # Constraints
 # Energy balance constraint for each time period
 @constraint(model, [i=1:num_periods], wind_energy[i] + solar_energy[i] +
-storage_efficiency*(stored_energy_from_wind[i] + stored_energy_from_solar[i]) == demand)
+storage_efficiency*(stored_energy_from_wind[i] + stored_energy_from_solar[i]) == demand[i])
 
 # Storage degradation constraints for each time period
 @constraint(model, [i=2:num_periods], stored_energy_from_wind[i] <=
