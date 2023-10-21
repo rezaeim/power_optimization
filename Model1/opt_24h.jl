@@ -98,3 +98,23 @@ for i in 1:num_periods
         println("-----------------------------------------")
     end
 end
+
+# Store the results in a dictionary
+results = Dict{String, Any}()
+
+for i = 1:num_periods
+    period_results = Dict{String, Any}()
+
+    period_results["Wind energy used"] = value(wind_energy[i])
+    period_results["Solar energy used"] = value(solar_energy[i])
+    period_results["Stored energy from wind"] = value(stored_energy_from_wind[i])
+    period_results["Stored energy from solar"] = value(stored_energy_from_solar[i])
+
+
+    results["Time period $i"] = period_results
+end
+
+# Save the results to a JSON file
+open("Model1/results.json", "w") do file
+    JSON.print(file, results, 4)
+end

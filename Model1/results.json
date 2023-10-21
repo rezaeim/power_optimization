@@ -1,0 +1,146 @@
+{
+    "Time period 2": {
+        "Solar energy used": 0.0,
+        "Stored energy from wind": 4.703343751371248,
+        "Stored energy from solar": 24.99665624862874,
+        "Wind energy used": 70.59700000000001
+    },
+    "Time period 6": {
+        "Solar energy used": 0.0,
+        "Stored energy from wind": 4.518013241225654,
+        "Stored energy from solar": 24.011688255774303,
+        "Wind energy used": 68.75559551797005
+    },
+    "Time period 7": {
+        "Solar energy used": 0.0,
+        "Stored energy from wind": 4.472833108813398,
+        "Stored energy from solar": 23.77157137321656,
+        "Wind energy used": 72.03803956279036
+    },
+    "Time period 22": {
+        "Solar energy used": 0.0,
+        "Stored energy from wind": 3.846897484151129,
+        "Stored energy from solar": 20.444938562486588,
+        "Wind energy used": 64.95108231382865
+    },
+    "Time period 5": {
+        "Solar energy used": 0.0,
+        "Stored energy from wind": 4.5636497386117725,
+        "Stored energy from solar": 24.254230561388184,
+        "Wind energy used": 71.47029850300005
+    },
+    "Time period 15": {
+        "Solar energy used": 0.0,
+        "Stored energy from wind": 4.127283020219102,
+        "Stored energy from solar": 21.935091362850205,
+        "Wind energy used": 74.1982493607614
+    },
+    "Time period 13": {
+        "Solar energy used": 0.0,
+        "Stored energy from wind": 4.2110835835313765,
+        "Stored energy from solar": 22.38046256795246,
+        "Wind energy used": 73.67436931003098
+    },
+    "Time period 16": {
+        "Solar energy used": 0.0,
+        "Stored energy from wind": 4.0860101900169115,
+        "Stored energy from solar": 21.715740449221702,
+        "Wind energy used": 66.45626686715377
+    },
+    "Time period 17": {
+        "Solar energy used": 0.0,
+        "Stored energy from wind": 4.045150088116742,
+        "Stored energy from solar": 21.498583044729486,
+        "Wind energy used": 74.71170419848224
+    },
+    "Time period 24": {
+        "Solar energy used": 0.0,
+        "Stored energy from wind": 3.7703442242165215,
+        "Stored energy from solar": 20.038084285093106,
+        "Wind energy used": 64.42965577578347
+    },
+    "Time period 3": {
+        "Solar energy used": 0.0,
+        "Stored energy from wind": 4.656310313857536,
+        "Stored energy from solar": 24.74668968614245,
+        "Wind energy used": 70.89103000000001
+    },
+    "Time period 4": {
+        "Solar energy used": 0.0,
+        "Stored energy from wind": 4.60974721071896,
+        "Stored energy from solar": 24.499222789281024,
+        "Wind energy used": 71.18211970000002
+    },
+    "Time period 8": {
+        "Solar energy used": 0.0,
+        "Stored energy from wind": 4.428104777725264,
+        "Stored energy from solar": 23.533855659484395,
+        "Wind energy used": 68.31765916716246
+    },
+    "Time period 18": {
+        "Solar energy used": 0.0,
+        "Stored energy from wind": 4.004698587235574,
+        "Stored energy from solar": 21.283597214282192,
+        "Wind energy used": 65.9645871564974
+    },
+    "Time period 20": {
+        "Solar energy used": 0.0,
+        "Stored energy from wind": 3.925005085349586,
+        "Stored energy from solar": 20.860053629717974,
+        "Wind energy used": 65.4627918720831
+    },
+    "Time period 14": {
+        "Solar energy used": 0.0,
+        "Stored energy from wind": 4.1689727476960625,
+        "Stored energy from solar": 22.156657942272936,
+        "Wind energy used": 66.93762561693069
+    },
+    "Time period 10": {
+        "Solar energy used": 0.0,
+        "Stored energy from wind": 4.33998549264853,
+        "Stored energy from solar": 23.065531931860654,
+        "Wind energy used": 72.86853774973589
+    },
+    "Time period 11": {
+        "Solar energy used": 1.4364380099606309,
+        "Stored energy from wind": 4.296585637722045,
+        "Stored energy from solar": 22.834876612542047,
+        "Wind energy used": 75.70341436227794
+    },
+    "Time period 21": {
+        "Solar energy used": 0.0,
+        "Stored energy from wind": 3.88575503449609,
+        "Stored energy from solar": 20.651453093420795,
+        "Wind energy used": 75.70816395336232
+    },
+    "Time period 9": {
+        "Solar energy used": 0.0,
+        "Stored energy from wind": 4.383823729948011,
+        "Stored energy from solar": 23.29851710288955,
+        "Wind energy used": 71.59448257549083
+    },
+    "Time period 19": {
+        "Solar energy used": 8.179592886295666,
+        "Stored energy from wind": 3.9646516013632183,
+        "Stored energy from solar": 21.07076124213937,
+        "Wind energy used": 76.03534839863677
+    },
+    "Time period 12": {
+        "Solar energy used": 0.0,
+        "Stored energy from wind": 4.253619781344825,
+        "Stored energy from solar": 22.606527846416625,
+        "Wind energy used": 67.40845384851617
+    },
+    "Time period 23": {
+        "Solar energy used": 0.0,
+        "Stored energy from wind": 3.8084285093096177,
+        "Stored energy from solar": 20.240489176861722,
+        "Wind energy used": 76.19157149069036
+    },
+    "Time period 1": {
+        "Solar energy used": 0.0,
+        "Stored energy from wind": 4.750852274112372,
+        "Stored energy from solar": 25.249147725887614,
+        "Wind energy used": 65.30000000000001
+    }
+}

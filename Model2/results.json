@@ -1,0 +1,42 @@
+{
+    "Time period 2": {
+        "Solar energy used": 45.0,
+        "Storage charged from wind": 0.0,
+        "Storage discharged wind": 40.0,
+        "Storage discharged solar": 0.0,
+        "Stored energy from wind": 10.0,
+        "Stored energy from solar": 50.0,
+        "Wind energy used": 35.0,
+        "Storage charged from solar": 0.0
+    },
+    "Time period 4": {
+        "Solar energy used": 25.0,
+        "Storage charged from wind": 0.0,
+        "Storage discharged wind": 0.0,
+        "Storage discharged solar": 50.0,
+        "Stored energy from wind": 0.0,
+        "Stored energy from solar": 0.0,
+        "Wind energy used": 30.0,
+        "Storage charged from solar": 0.0
+    },
+    "Time period 3": {
+        "Solar energy used": 55.0,
+        "Storage charged from wind": 0.0,
+        "Storage discharged wind": 10.0,
+        "Storage discharged solar": 0.0,
+        "Stored energy from wind": 0.0,
+        "Stored energy from solar": 50.0,
+        "Wind energy used": 45.0,
+        "Storage charged from solar": 0.0
+    },
+    "Time period 1": {
+        "Solar energy used": 0.0,
+        "Storage charged from wind": 0.0,
+        "Storage discharged wind": 50.0,
+        "Storage discharged solar": 30.0,
+        "Stored energy from wind": 50.0,
+        "Stored energy from solar": 50.0,
+        "Wind energy used": 0.0,
+        "Storage charged from solar": 0.0
+    }
+}

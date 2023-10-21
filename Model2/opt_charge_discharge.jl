@@ -1,5 +1,6 @@
 using JuMP
 using GLPK
+using JSON
 
 # Define the data
 total_demand = [80, 120, 110, 105]  # Total grid demand in MW over time
@@ -60,3 +61,30 @@ for t = 1:4
 end
 
 println("\nTotal cost of energy production: ", objective_value(model))
+
+
+# Store the results in a dictionary
+results = Dict{String, Any}()
+
+for t = 1:4
+    period_results = Dict{String, Any}()
+
+    period_results["Wind energy used"] = value(wind_use[t])
+    period_results["Solar energy used"] = value(solar_use[t])
+    period_results["Storage charged from wind"] = value(storage_charge_from_wind[t])
+    period_results["Storage charged from solar"] = value(storage_charge_from_solar[t])
+    period_results["Storage discharged wind"] = value(storage_discharge_wind[t])
+    period_results["Storage discharged solar"] = value(storage_discharge_solar[t])
+    period_results["Stored energy from wind"] = value(stored_energy_from_wind[t])
+    period_results["Stored energy from solar"] = value(stored_energy_from_solar[t])
+
+
+    results["Time period $t"] = period_results
+end
+
+# Save the results to a JSON file
+open("Model2/results.json", "w") do file
+    JSON.print(file, results, 4)
+end
+
+
